@@ -3,7 +3,7 @@
 // Author      : 
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Smart pointer in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
@@ -21,11 +21,12 @@ public:
 	T* operator->(){return ptr;};
 
 };
-int main() {
 
-SmartPtr<int>ptr(new int(4));
+int main()
+{
 
-cout<<*ptr;
+	SmartPtr<int>ptr(new int(4));
+
 
 	return 0;
 }
