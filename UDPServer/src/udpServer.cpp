@@ -58,7 +58,7 @@ int main() {
 
 
 	char buffer[MAXLINE];
-	char *hello = "Hello from server";
+	char *hello = "Hello from server @@ ";
 	struct sockaddr_in cliaddr;
 	memset(&cliaddr, 0, sizeof(cliaddr));
 
